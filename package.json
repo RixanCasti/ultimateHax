@@ -1,0 +1,19 @@
+{
+  "name": "ultimatehax",
+  "version": "1.0.0",
+  "description": "A unofficial Haxball performance app.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Haxball",
+    "performance",
+    "app"
+  ],
+  "author": "RixCasti",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0"
+  }
+}
