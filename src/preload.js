@@ -6,7 +6,7 @@ const injectHack = () => {
 }
 
 const addStyle = () => {
-    document.getElementsByClassName('rightbar')[0].remove():
+    document.getElementsByClassName('rightbar')[0].remove();
 
     const body = document.getElementsByClassName('gameframe')[0].contentDocument.body;
     const header = document.getElementsByClassName('header')[0];
