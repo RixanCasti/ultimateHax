@@ -5,7 +5,7 @@ app.on('ready', createWindow);
 app.on('activate', createWindow);
 app.on('window-all-closed', app.quit);
 
-const commandLineFlags = [
+const flags = [
     'disable-http-cache',
     'enable-pre-commit-input',
     'disable-frame-rate-limit',
@@ -13,7 +13,7 @@ const commandLineFlags = [
     'enable-accelerated-2d-canvas'
 ];
 
-commandsLineFlags.forEach(flag => app.commandLine.appendSwitch(flag));
+flags.forEach(flag => app.commandLine.appendSwitch(flag));
 
 function createWindow () {
     const win = new BrowserWindow({
